@@ -1,0 +1,91 @@
+x=10.5
+x
+class(x)
+k=1
+k
+class(k)
+is.integer(k)
+y=as.integer(3)
+y
+class(y)
+is.integer(y)
+as.integer(3.14)
+as.integer("5.27")
+as.integer("anna")
+as.integer(TRUE)
+z=1+2i
+z
+class(z)
+sqrt(-1)
+sqrt(-1+0i)
+sqrt(as.complex(-1))
+x=1; y=2
+z=x>y
+z
+class(z)
+u=TRUE; v=FALSE
+u+v
+u|v
+!u
+demo()
+n=c(2,3,5)
+s=c("aa","bb","cc","dd","ee")
+c(n,s)
+install.packages("RGtk2", repos = "http://cran.fhcrc.org");
+library(RGtk2);
+install.packages("RGtk2", repos = "http://cran.fhcrc.org");
+library(RGtk2);
+pkg = "RGtk2Extras, gWidgets, gWidgetsRGtk2, RODBC, e1071, plotrix, reshape, nlme, rgl, gplots, car, outliers, RSQLite, scatterplot3d, colorspace, ellipse, MASS, pls, diagram";
+install.packages(strsplit(pkg, ", ")[[1]], repos = "http://cran.fhcrc.org");
+quit()
+install.packages("RGtk2", repos = "http://cran.fhcrc.org");
+library(RGtk2);
+quit()
+library(RGtk2);
+install.packages("RGtk2", repos = "http://cran.fhcrc.org");
+library(RGtk2);
+q()
+library(RGtk2);
+pkg = "RGtk2Extras, gWidgets, gWidgetsRGtk2, RODBC, e1071, plotrix, reshape, nlme, rgl, gplots, car, outliers, RSQLite, scatterplot3d, colorspace, ellipse, MASS, pls, diagram";
+install.packages(strsplit(pkg, ", ")[[1]], repos = "http://cran.fhcrc.org");
+q()
+set.seed(31);
+heightsCM = rnorm(30,mean=188, sd=5);
+weightsK = rnorm(30,mean=84,sd=3);
+hasDaughter = sample(c(TRUE,FALSE),size=30,replace=T);
+dataFrame = data.frame(heightsCM,weightsK,hasDaughter);
+dataFrameSubset<-dataFrame[dataFrame$heightsCM>188,]
+mean(dataFrameSubset$weightsK)
+set.seed(41);
+cauchyValues = rcauchy(100);
+set.seed(415);
+sample(cauchyValues, 10, replace = TRUE)
+getwd()
+dir()
+myfunction()
+ls
+ls()
+myfunction <- function(x) {#
+	y <- rnorm(100)#
+	mean(y)#
+}
+ls()
+myfunction()
+getwd()
+dir()
+source("myfunction.r")
+ls()
+source("myfunction.r")
+ls()
+second
+second(4)
+second(4:10)
+exit()
+quit()
+setwd("~/Annas/Kurser/Omics Data Analysis/projekt/scripts/")
+list.files()
+mydata = read.table("131122_cluster10_cutoff500_binary_matrix.txt", sep = "\t", header = TRUE)
+mydata <- mydata[, !apply(mydata, 2, function(eaCol) all(eaCol ==0))]
+write.table(mydata, "131122_cluster10_cutoff500_binary_nocols0.txt", sep = "\t")
+library(DanteR)
+dante()
